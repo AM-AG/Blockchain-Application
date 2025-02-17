@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(150, 145, 145);
+    color: rgba(22, 58, 135, 0.824);
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    border-radius: 25px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #807c7c;
+    color: black;
+}
+.tradingview-widget-container {
+  width: 100%;
+  height: 100px;
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.buy-button, .sell-button {
+  position: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.buy-button:hover {
+  background-color: #004603;
+}
+
+.sell-button {
+  background-color: #d1443a;
+}
+
+.sell-button:hover {
+  background-color: #a70d02;
+}
